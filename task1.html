@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>task1</title>
+</head>
+<body>
+	<center>
+		<img src="epam logo.png">
+	</center>
+	<h1>HTML Elements</h1>
+	<hr>
+	<a href="#Home">Home</a>&nbsp;&nbsp;
+	<a href="#page">Headers</a>&nbsp;&nbsp;
+	<a href="#abc">Table</a>&nbsp;&nbsp;
+	<a href="#pqr">List</a>&nbsp;&nbsp;
+	<a href="#mno">Textformats</a>&nbsp;&nbsp;
+	<a href="#bcd">Blockquotes</a>&nbsp;&nbsp;
+	<hr>
+	<br>
+	<p id="Home">Pay attention to h1 tag inside section element.Fontsize for h1 is the same as font-size for h2,because we have to use only one one h1 on the page,and it is commonly used inside header</p>
+	<hr>
+	<div id="page">
+	<h2>Header 2</h2>
+	<h3>Header 3</h3>
+	<h4>Header 4</h4>
+	<h5>Header 5</h5>
+	<h6>Header 6</h6>
+	<hr>
+	<p>EPAM Systems, Inc. is an American company that specializes in software<a href="">Test link</a> engineering services, <b>digital platform</b>engineering, and digital <i>product</i> design, operating out of Newtown.5<sup>3</sup> Pennsylvania. EPAM is a founding member H<sub>2</sub>0 of the </u>Aditya</u>MACH <big>Alliance</big>
+	In 1993, Arkadiy Dobkin and Leo Lozner <small>founded</small> EPAM, a <mark>global</mark>software engineering services company, in New Jersey, USA and Minsk, Belarus. In 2002, EPAM was <del>ranked</del> publicly for the <em>first time</em> as a fast-growing company by Deloitte & Touche.
+	</p>
+    </div>
+    <div id="abc">
+    <h1>Table</h1>
+    <table border="" cellspacing="0" height="150" width="1500">
+    	<tr>
+    		<td>Header</td>
+    		<td>Header</td>
+    		<td>Header</td>
+    	</tr>
+    	<tr>
+    		<td>sai</td>
+    		<td>srinu</td>
+    		<td>surya</td>
+        </tr>
+        <tr>
+    		<td>lucky</td>
+    		<td>lohitha</td>
+    		<td>loki</td>
+        </tr>
+        <tr>
+    		<td>megha</td>
+    		<td>manju</td>
+    		<td>manasa</td>
+        </tr>
+    </table>
+</div>
+<div id="pqr">
+<h2>Unordered List</h2>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <ul>
+  	<li>sugar</li>
+  </ul>
+  <li>Milk</li>
+</ul>  
+<h2>Ordered List</h2>
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <ol>
+  	<li>sugar</li>
+  </ol>
+  <li>Milk</li>
+</ol> 
+<h2>Definition List</h2>
+<dl>
+<dt><b>define 1</b></dt>
+<dd>descript</dd><br>
+<dt><b>define 2</b></dt>
+<dd>descript</dd>
+</dl>
+<label>Details</label>
+          <select>
+          	<option>HTML</option>
+          	<option>CSS</option>
+          </select>
+</div>
+<hr>
+<div id="mno">
+<h1>Text formats</h1>
+<h3>Article Text</h3>
+<h4>Article title</h4>
+<h5>Article description</h5>
+<h1>Preformatted Text</h1>
+<div id="textformats">
+<center><pre>
+Text
+ in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both spaces and
+line breaks
+</pre></center>
+<h1>Code</h1>
+<code>
+<pre><center><b>
+Text in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both spaces and
+ line breaks
+</b></center></pre></div>
+<div id="bcd">
+	<h2>Blockquotes</h2>
+	<p>Text in a element is displayed in a fixed-width font, and the text preserves both spaces and line breaks. The text will be displayed exactly as written in the HTML source code.</p>
+	<p><i>"PRE is used to include sections of text in which formatting is critical. Unlike in the other HTML containers, text in a PRE pair will only be wrapped at the linebreaks in the source, and spaces will not be collapsed. You can even use tabs, although it is better to use multiple spaces since those will always be the right number. An image can't be translated to a certain number of characters.The optional WIDTH attribute can be used to indicate how wide the text is (for example, WIDTH=80 for a typical text file). This would allow the browser to pick a font which fits the entire text in the current window. Unfortunately this isn't very widely supported."<br><a href="">Elon Musk</a></i></p>
+	<hr>
+	<div style="float:right;text-align:left">
+	<form>
+		  <label>First name:</label>
+          <input type="text">
+          <br><br>
+          <label>Surname:</label>
+          <input type="text">
+          <br><br>
+          <label>Email:</label>
+          <input type="email">
+          <br><br>
+          <textarea></textarea>
+          <br>
+          <input type="submit">
+      </form>
+  </div>
+</body>
+</html>

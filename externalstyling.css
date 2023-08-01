@@ -1,0 +1,58 @@
+.external{
+	border:2px dashed green;
+	background-color: pink;
+	font-size:20px;
+} 
+#abc{
+	background-color: lightblue;
+	font-style:italic;
+}
+p{
+	color:blue;
+	font-size:30px;
+	font-style:italic;
+	background-color: lightblue;
+}
+h3{
+	color:blue;
+	font-size:60px;
+	font-style:italic;
+	background-color: pink;
+}
+*{
+	font-family: cursive;
+	margin:0px;
+}
+input[type]{
+	color:pink;
+}
+input[type="number"]{
+	color: yellow;
+}
+input[type="password"]{
+	color: green;
+}
+input[type="email"]{
+	color: blue;
+}
+a[href]{
+	background-color:pink;
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

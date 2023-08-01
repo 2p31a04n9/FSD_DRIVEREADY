@@ -1,0 +1,30 @@
+img[src="travel.jpg"]{
+	border-image: 1px;
+	height: 200px;
+	width: 300px;
+}
+p{
+	font-family: cursive;
+	font-size: 10px;
+	color: white;
+}
+header{
+	font-size: 20px;
+	color: white;
+	font-family: cursive;
+}
+section{
+	font-size: 15px;
+	color: black;
+	font-family: serif;
+}
+.abc{
+	height: 100px;
+	width: 100px;
+}
+span:hover{
+	color: blue;
+}
+footer{
+	font-size: 20px
+}
